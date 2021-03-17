@@ -28,7 +28,7 @@ with arcpy.da.UpdateCursor(Layer_Name, fields) as Ucursor:
         Ucursor.updateRow(row)
 
 
-###Iterate Parcels###
+###Iterate Polygons###
 with arcpy.da.SearchCursor(Layer_Name, ["SHAPE@", "Row"]) as Scursor:
     for row in Scursor:
         for i in range(1,Input_NumOfLevels):
