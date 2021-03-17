@@ -1,4 +1,4 @@
-# ArcMap-tool-parcel-iterator
+# ArcMap-tool-polygon-iterator
 
 This is an ArcMap tool for duplicating polygon layers, while changing their height value so they can be displayed on top of each other in a 3D display.
 
